@@ -2,7 +2,7 @@
 
 numbers = [15, 21, 33, 42, 56, 18, 70]
 for ind in range(len(numbers)):
-    if numbers<numbers[ind]:
+    if numbers[ind] < 0:
         print(ind)
         break
 else:
